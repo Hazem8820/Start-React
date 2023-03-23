@@ -1,0 +1,49 @@
+.navbg {
+    background-color: #2c3e50;
+}
+
+.footbg {
+    background-color: #1b2631;
+}
+
+.textblue {
+    color: #2c3e50 !important;
+}
+
+.links:hover {
+    color: #1abc9c !important;
+    cursor: pointer;
+}
+
+.headerbg {
+    background-color: #1abc9c;
+    border: none;
+}
+
+.portbg {
+    background-color: #1abc9cb1;
+    z-index: -1;
+}
+
+.portimage:hover .portbg {
+    z-index: 9;
+    transition: 1s 0.01s;
+    cursor: pointer;
+}
+
+.line {
+    width: 100px;
+    height: 5px;
+}
+
+.circle:hover {
+    background-color: #fff;
+    color: #2c3e50;
+    border: none;
+    transition: 0.5s 0.1s;
+    cursor: pointer;
+}
+
+.textarea {
+    border: none;
+}
